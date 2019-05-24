@@ -1,0 +1,19 @@
+package.json文件
+将版本号定义为"version": "0.0.1"
+以后我们每次正式提交代码,版本号都不一样.版本号分为三级
+
+一级 重构版本
+二级 重大功能改进
+三级 小升级或者bug修复
+为何从0.0.1开始? 因为0.0.x可以认为是非正式版本、测试服,而从1.x.x开始,就是正式发布的版本了.
+.gitignore为隐藏文件   cmd + shift + .
+src - 源代码
+release - 发布结果
+test - 单元测试用例
+doc - 文档
+example - 示例
+
+
+git add .
+git commit -m "v0.0.1 初次提交"
+git push origin master
